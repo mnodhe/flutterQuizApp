@@ -30,6 +30,7 @@ class Result extends StatelessWidget {
           Text(
             '$resultPhrase $_score points',
             style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
           ),
           ElevatedButton(
             onPressed: HandleReset,
